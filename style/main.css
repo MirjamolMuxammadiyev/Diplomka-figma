@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    position: relative;
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.container .navbar ul{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 13px;
+    position: absolute;
+    left: 60%;
+    top: 30px;
+}
+.container .navbar ul li:first-child{
+    color:#7095A0 ;
+}
+.container .contant{
+    width: 100%;
+    height: 750px;
+    background-color: #EBF3F5;
+}
+.container .contant .box img{
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.container .contant .contant-two img{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 400px;
+    z-index: 2;
+
+}
+.container .contant .contant-tree img{
+    width: 420px;
+    position: absolute;
+    top:25.5%;
+    left: 58%;
+    z-index: 1;
+}
+.container .contant p{
+    width: 400px;   
+    height: 100px;
+    font-size: 15px;
+    position: absolute;
+    top: 63%;
+    left: 10%;
+    color: #555555;
+}
+.container .contant .contant-tree p{
+    position: absolute;
+    top: 75%;
+    width: 11%;
+    height: 45px;
+    border: 1px solid transparent;
+    background-color: #5C8692;
+    color: white;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .contant .contant-four img {
+    position: absolute;
+    top: 35%;
+    left: 10%;  
+}
+.container .massage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.container .massage .spa img{
+    position: absolute;
+    top: 130%;
+    left: 10%;
+}
+.container .massage .hair img{
+    position: absolute;
+    top: 130%;
+    left: 37%;
+}
+.container .massage .body img{
+    position: absolute;
+    top: 130%;
+    left: 64%;
+}
+.container .massage .spa-massage img {
+    position: absolute;
+    top: 174%;
+    left: 10%;
+}
+.container .massage .hair-beauty img {
+    position: absolute;
+    top: 174%;
+    left: 37%;
+}
+.container .massage .body-treatments img {
+    position: absolute;
+    top: 174%;
+    left: 64%;
+}
+.container .massage .spa-massage p{
+    width: 230px;
+    height: 110px;
+    position: absolute;
+    top: 179%;
+    left:10%;
+    font-size: 17px;
+    color: #555555;
+}
+.container .massage .hair-beauty p{
+    width: 290px;
+    height: 100px;
+    position: absolute;
+    top: 179%;
+    left:37%;
+    font-size: 17px;
+    color: #555555;
+}
+.container .massage .body-treatments p{
+    width: 290px;
+    height: 100px;
+    position: absolute;
+    top: 179%;
+    left:64%;
+    font-size: 17px;
+    color: #555555;
+}
+.container .massage .spa-massage h6{
+    position: absolute;
+    top: 192%;
+    left: 10%;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #5C8692;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    
+}
+.container .massage .hair-beauty h6{
+    position: absolute;
+    top: 192%;
+    left: 37%;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #5C8692;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    
+}
+.container .massage .body-treatments h6{
+    position: absolute;
+    top: 192%;
+    left: 64%;
+    width: 100px;
+    height: 35px;
+    border: 2px solid #5C8692;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+.container .balance{
+    width: 100%;
+    height: 815px;
+    background-color:#EBF3F5 ;
+}
+.container .balance .one img{
+    position: absolute;
+    top: 235%;
+    left: 10%;
+}
+.container .balance .twoo img{
+    position: absolute;
+    top: 230%;
+    left: 62%;
+    z-index: 4;
+}
+.container .balance .tree img{
+    position: absolute;
+    top: 236%;
+    left: 55%;
+    z-index: 3;
+}
+.container .balance p{
+    color: #5C8692;
+    position: absolute;
+    top: 240%;
+    left: 10%;
+}
+.container .balance .twoo h1{
+    color: #000;
+    width: 400px;
+    height: 110px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 245%;
+    left: 10%;
+}
+.container .balance .twoo p{
+    width: 550px;
+    height: 100px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 265%;
+    color: #555555;
+    font-size: 20px;
+}
+.container .balance .four img{
+    position: absolute;
+    top: 289%;
+    left: 10%;
+}
+.container .balance .five img{
+    position: absolute;
+    top: 289%;
+    left:25% ;
+}
+.container .balance .six img{
+    position: absolute;
+    top: 289%;
+    left: 39.9%;
+}
+.container .balance .seven img{
+    position: absolute;
+    top: 293%;
+    left: 14.5%;
+}
+.container .balance .seven p{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 303%;
+    left: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.container .balance .eight img{
+    position: absolute;
+    top: 293%;
+    left: 28.5%;
+}
+.container .balance .eight p{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 303%;
+    left: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.container .balance .ten img{
+    position: absolute;
+    top: 293%;
+    left: 43.8%;
+}
+.container .balance .ten p{
+    width: 60px;
+    height: 60px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 305%;
+    left: 44%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: black;
+    font-size: 18px;
+}
+.container .servises{
+    width: 100%;
+    height: 1800px;
+}
+.container .servises p{
+    position: absolute;
+    top: 340%;
+    left: 48%;
+    color: #5C8692;
+}
+.container .servises h1{
+    position: absolute;
+    top: 342%;
+    left: 38%;
+    width:400px;
+    height: 100px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .servises .h1-twoo{
+    position: absolute;
+    top: 348%;
+    left: 38%;
+}
+.container .servises .servis-left{
+    position: absolute;
+    top: 370%;
+    left: 10%;
+
+}
+.container .servises .servis-right{
+    position: absolute;
+    top: 460%;
+    left: 48.4%;
+}
+.container .servises .servis-left .ramka{
+    width: 90px;
+    height: 90px;
+    background-color: #485659;
+    position: absolute;
+    top: 99.1%;
+    left: 83%;
+}
+.container .servises .servis-right .ramka-twoo{
+    width: 90px;
+    height: 90px;
+    background-color: #485659;
+    position: absolute;
+    top: -13.8%;
+    left: 2.7%;
+}
+.container .servises .servis-left h3{
+    position: absolute;
+    top: 5%;
+    left: 120%;
+}
